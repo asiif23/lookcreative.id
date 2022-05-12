@@ -1,0 +1,18 @@
+﻿[Wait]
+Path=busy cream.ani
+
+[NWPen]
+Path=Handwriting cream.cur
+
+[SizeWE]
+Path=Horizontal cream resize.ani
+
+[Crosshair]
+Path=precision.ani
+
+[SizeNS]
+Path=vertical resize.ani
+
+[Hand]
+Path=link cream.ani
+

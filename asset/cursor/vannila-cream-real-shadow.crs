@@ -1,0 +1,27 @@
+﻿[UpArrow]
+Path=Alternate cream.cur
+
+[SizeNWSE]
+Path=Diagonal 1 cream resize.ani
+
+[SizeNESW]
+Path=Diagonal 2 cream resize.ani
+
+[Help]
+Path=help cream.ani
+
+[SizeAll]
+Path=move.cur
+
+[Arrow]
+Path=Normal cream.cur
+
+[IBeam]
+Path=text cream.ani
+
+[No]
+Path=Unavilable.cur
+
+[AppStarting]
+Path=Working cream.ani
+
