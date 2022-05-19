@@ -8,11 +8,9 @@
     <meta name="author" content="AsiifDev">
     <meta name="generator" content="AsiifDev LandingPage V.1.0">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="asset/img/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="asset/img/favicon.png" />
     <title>Look Creative</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- slick slider -->
-    <link rel="stylesheet" href="asset/plugins/slick/slick.css">
     <!-- themefy-icon -->
     <link rel="stylesheet" href="asset/plugins/themify-icons/themify-icons.css">
     <!-- Main Stylesheet -->
@@ -20,13 +18,21 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="asset/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/main.css">
+    <!-- Font Awesome -->
+    <link href="asset/plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Magnific Popup -->
+    <link href="asset/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Slick Carousel -->
+    <link href="asset/plugins/slick/slick.css" rel="stylesheet">
+    <link href="asset/plugins/slick/slick-theme.css" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link href="asset/css/style-custom.css" rel="stylesheet">
 </head>
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
-
     <!-- Start Navigation -->
     <div>
-        <header class="navigation fixed-top">
+        <header class="navigation fixed-top" style="background-color: transparent;">
             <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn"
                     style="cursor: url('asset/cursor/Unavilable.cur'),default;" onclick="closeNav()">&times;</a>
@@ -39,14 +45,13 @@
             </div>
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand font-tertiary h3" href="#">
-                    <img src="asset/img/Logo-01.png" alt="" width="30" height="24"
+                    <img src="asset/img/logo.png" alt="logo" width="70" height="70"
                         class="d-inline-block align-text-top">
-                    Look Creative
                 </a>
-                <span class="text-dark navbar-nav ms-auto mb-2 mb-lg-0 me-4"
+                <span class="navbar text-white navbar-nav ms-auto mb-2 mb-lg-0 me-4"
                     style="font-size:50px;cursor:url('asset/cursor/Alternate-cream.cur'),default;"
                     onclick="openNav()">&#9776;</span>
-                <hr class="text-dark">
+                <hr class="text-white">
             </nav>
         </header>
     </div>
@@ -56,37 +61,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-11 mx-auto mb-2">
-                    <h1 class="text-white font-tertiary">Look Creative</h1>
-                    <a href="#about" class="btn btn-success">About Us</a>
+                    <h1 class="text-white font-tertiary">Multimedia & Creative Event Production</h1>
                 </div>
             </div>
         </div>
         <div class="layer-bg w-100">
-            <img class="img-fluid w-100" src="asset/img/illustrations/leaf-bg.png" alt="bg-shape">
-        </div>
-        <div class="layer" id="l2">
-            <img src="asset/img/illustrations/dots-cyan.png" alt="bg-shape">
-        </div>
-        <div class="layer" id="l3">
-            <img src="asset/img/illustrations/leaf-orange.png" alt="bg-shape">
-        </div>
-        <div class="layer" id="l4">
-            <img src="asset/img/illustrations/dots-orange.png" alt="bg-shape">
-        </div>
-        <div class="layer" id="l5">
-            <img src="asset/img/illustrations/leaf-yellow.png" alt="bg-shape">
-        </div>
-        <div class="layer" id="l6">
-            <img src="asset/img/illustrations/leaf-cyan.png" alt="bg-shape">
-        </div>
-        <div class="layer" id="l7">
-            <img src="asset/img/illustrations/dots-group-orange.png" alt="bg-shape">
-        </div>
-        <div class="layer" id="l8">
-            <img src="asset/img/illustrations/leaf-pink-round.png" alt="bg-shape">
-        </div>
-        <div class="layer" id="l9">
-            <img src="asset/img/illustrations/leaf-cyan-2.png" alt="bg-shape">
+            <img class="d-flex img-fluid w-100" src="asset/img/DSCF3756.jpg" alt="bg-shape" style="opacity: 0.5;background-color: black;"> 
         </div>
         <!-- social icon -->
         <ul class="list-unstyled position-relative ms-3">
@@ -111,15 +91,17 @@
         <div class="row">
             <div class="col-lg-10 mx-auto text-center">
                 <div class="embed-responsive embed-responsive-21by9">
-                    <iframe style="position: absolute;top: 0;left: 0; width: 100%; height: 100%;" class="embed-responsive-item" width="560" height="315"
-                    src="https://www.youtube.com/embed/videoseries?list=PLsrLiq8qMd4isrOj0QGE_wjaSiaXa2Vae&autoplay=1" allowfullscreen>
+                    <iframe style="position: absolute;top: 0;left: 0; width: 100%; height: 100%;"
+                        class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube.com/embed/videoseries?list=PLsrLiq8qMd4isrOj0QGE_wjaSiaXa2Vae&autoplay=1"
+                        allowfullscreen>
                     </iframe>
                 </div>
             </div>
         </div>
     </div>
     <!-- End of Embed Youtube Player -->
-    
+
     <!-- about -->
     <section class="section" id="about">
         <div class="container">
@@ -141,108 +123,97 @@
             </div>
         </div>
     </section>
-    <!-- /about -->
+    <!-- about -->
 
-    <!-- services -->
-    <section class="section" id="servis">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="section-title">Services</h2>
-                </div>
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <div class="card hover-shadow shadow">
-                        <div class="card-body text-center px-4 py-5">
-                            <i class="ti-palette icon mb-5 d-inline-block"></i>
-                            <h4 class="mb-4 text-black">Event Organizer</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et
-                                dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <div class="card active-bg-primary hover-shadow shadow">
-                        <div class="card-body text-center px-4 py-5">
-                            <i class="ti-vector icon mb-5 d-inline-block"></i>
-                            <h4 class="mb-4">Website Developer</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et
-                                dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <div class="card hover-shadow shadow">
-                        <div class="card-body text-center px-4 py-5">
-                            <i class="ti-panel icon mb-5 d-inline-block"></i>
-                            <h4 class="mb-4 text-black">Interaction Design</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et
-                                dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!--=============================
+=            Gallery            =
+==============================-->
+
+    <section class="section gallery">
+        <div class="col-12 text-center">
+            <h2 class="section-title">Portfolio</h2>
         </div>
-    </section>
-    <!-- /services -->
-
-    <!-- portfolio -->
-    <section class="section" id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="section-title">Portfolio</h2>
-                </div>
-            </div>
-            <div class="row shuffle-wrapper">
-                <div class="col-lg-4 col-6 mb-4 shuffle-item">
-                    <div class="position-relative rounded hover-wrapper">
-                        <img src="asset/img/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100">
-                        <div class="hover-overlay">
-                            <div class="hover-content">
-                                <a class="btn btn-light btn-sm" href="#!">view project</a>
+                <div class="col-12">
+                    <div class="controls">
+                        <button type="button" class="control mixitup-control-active" data-filter="all">All</button>
+                        <button type="button" class="control" data-filter=".event">Event</button>
+                        <button type="button" class="control" data-filter=".virtual">Virtual</button>
+                        <button type="button" class="control" data-filter=".digital">Digital</button>
+                    </div>
+                    <div class="gallery-wrapper">
+                        <div class="gallery-item mix event">
+                            <div class="image-block">
+                                <div class="image">
+                                    <img src="asset/img/gallery/gallery-one.jpg" alt="gallery-image" class="img-fluid">
+                                    <div class="primary-overlay">
+                                        <a class="image-popup" data-effect="mfp-with-zoom"
+                                            href="asset/img/gallery/gallery-full-popup-one.jpg"><i
+                                                class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 mb-4 shuffle-item">
-                    <div class="position-relative rounded hover-wrapper">
-                        <img src="asset/img/portfolio/item-2.png" alt="portfolio-image" class="img-fluid rounded w-100">
-                        <div class="hover-overlay">
-                            <div class="hover-content">
-                                <a class="btn btn-light btn-sm" href="#!">view project</a>
+                        <div class="gallery-item mix digital events">
+                            <div class="image-block">
+                                <div class="image">
+                                    <img src="asset/img/gallery/gallery-two.jpg" alt="gallery-image" class="img-fluid">
+                                    <div class="primary-overlay">
+                                        <a class="image-popup" data-effect="mfp-with-zoom"
+                                            href="asset/img/gallery/gallery-full-popup-two.jpg"><i
+                                                class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 mb-4 shuffle-item">
-                    <div class="position-relative rounded hover-wrapper">
-                        <img src="asset/img/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100">
-                        <div class="hover-overlay">
-                            <div class="hover-content">
-                                <a class="btn btn-light btn-sm" href="#!">view project</a>
+                        <div class="gallery-item mix event digital">
+                            <div class="image-block">
+                                <div class="image">
+                                    <img src="asset/img/gallery/gallery-three.jpg" alt="gallery-image"
+                                        class="img-fluid">
+                                    <div class="primary-overlay">
+                                        <a class="image-popup" data-effect="mfp-with-zoom"
+                                            href="asset/img/gallery/gallery-full-popup-three.jpg"><i
+                                                class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 mb-4 shuffle-item">
-                    <div class="position-relative rounded hover-wrapper">
-                        <img src="asset/img/portfolio/item-4.png" alt="portfolio-image" class="img-fluid rounded w-100">
-                        <div class="hover-overlay">
-                            <div class="hover-content">
-                                <a class="btn btn-light btn-sm" href="#!">view project</a>
+                        <div class="gallery-item mix event virtual">
+                            <div class="image-block">
+                                <div class="image">
+                                    <img src="asset/img/gallery/gallery-four.jpg" alt="gallery-image" class="img-fluid">
+                                    <div class="primary-overlay">
+                                        <a class="image-popup" data-effect="mfp-with-zoom"
+                                            href="asset/img/gallery/gallery-full-popup-four.jpg"><i
+                                                class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6 mb-4 shuffle-item">
-                    <div class="position-relative rounded hover-wrapper">
-                        <img src="asset/img/portfolio/item-5.png" alt="portfolio-image" class="img-fluid rounded w-100">
-                        <div class="hover-overlay">
-                            <div class="hover-content">
-                                <a class="btn btn-light btn-sm" href="#!">view project</a>
+                        <div class="gallery-item mix virtual digital">
+                            <div class="image-block">
+                                <div class="image">
+                                    <img src="asset/img/gallery/gallery-five.jpg" alt="gallery-image" class="img-fluid">
+                                    <div class="primary-overlay">
+                                        <a class="image-popup" data-effect="mfp-with-zoom"
+                                            href="asset/img/gallery/gallery-full-popup-five.jpg"><i
+                                                class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-item mix events conference">
+                            <div class="image-block">
+                                <div class="image">
+                                    <img src="asset/img/gallery/gallery-six.jpg" alt="gallery-image" class="img-fluid">
+                                    <div class="primary-overlay">
+                                        <a class="image-popup" data-effect="mfp-with-zoom"
+                                            href="asset/img/gallery/gallery-full-popup-six.jpg"><i
+                                                class="fa fa-picture-o"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -250,7 +221,9 @@
             </div>
         </div>
     </section>
-    <!-- /portfolio -->
+
+    <!--====  End of Gallery  ====-->
+
 
     <!-- testimonial -->
     <section class="section bg-primary position-relative testimonial-bg-shapes">
@@ -474,13 +447,30 @@
     </footer>
     <!-- /footer -->
 
-    <!-- Script Start -->
-    <!-- jQuery -->
-    <script src="asset/plugins/jQuery/jquery.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="asset/plugins/bootstrap/bootstrap.min.js"></script>
-    <!-- slick slider -->
+
+
+    <!-- jQuey -->
+    <script src="asset/plugins/jquery/jquery.js"></script>
+    <!-- Popper js -->
+    <script src="asset/plugins/popper/popper.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="asset/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Smooth Scroll -->
+    <script src="asset/plugins/smoothscroll/SmoothScroll.min.js"></script>
+    <!-- Isotope -->
+    <script src="asset/plugins/isotope/mixitup.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="asset/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Slick Carousel -->
     <script src="asset/plugins/slick/slick.min.js"></script>
+    <!-- SyoTimer -->
+    <script src="asset/plugins/syotimer/jquery.syotimer.min.js"></script>
+    <!-- Google Mapl -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
+    <!-- Custom Script -->
+    <script src="asset/js/custom.js"></script>
+
     <!-- filter -->
     <script src="asset/plugins/shuffle/shuffle.min.js"></script>
 
